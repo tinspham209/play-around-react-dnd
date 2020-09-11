@@ -12,7 +12,7 @@
 
 ### Screenshot
 
-- <img src="https://i.imgur.com/vTs5gIA.png" alt="practice-react-dnd"/>
+<img src="https://i.imgur.com/8HvH10W.png" alt="practice-react-dnd"/>
 
 ### Tech-Stack
 
