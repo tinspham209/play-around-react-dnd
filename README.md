@@ -1,6 +1,6 @@
 # Mini Project: Practice Drag & Drop with react-dnd
 
-## Date: 10 - Sep - 2020 ~> 12 - Sep - 2020
+## Date: 10 ~~>> 12 - Sep - 2020
 
 ### Functions
 
