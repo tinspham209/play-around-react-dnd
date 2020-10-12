@@ -4,7 +4,7 @@
 	"private": true,
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.4.0",
-		"beautiful-react-diagrams": "^0.2.1",
+		"beautiful-react-diagrams": "^0.2.2",
 		"cra-template": "1.0.3",
 		"immutability-helper": "^3.1.1",
 		"react": "^16.13.1",
