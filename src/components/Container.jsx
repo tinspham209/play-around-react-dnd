@@ -7,6 +7,8 @@ import List from "./List";
 import { useSelector, useDispatch } from "react-redux";
 import { addItemBox, setNewLocationItem } from "./boxSlice";
 
+import Diagram, { useSchema } from "beautiful-react-diagrams";
+
 const container = {
 	display: "flex",
 };
@@ -37,6 +39,7 @@ const Container = () => {
 	const dispatch = useDispatch();
 	const boxes = useSelector((state) => state.boxItems);
 
+	// move Box around container
 	const [, dropBox] = useDrop({
 		accept: ItemTypes.BOX,
 		drop: (item, monitor) => {
@@ -48,6 +51,7 @@ const Container = () => {
 		},
 	});
 
+	// dnd from list to container
 	const [, dropList] = useDrop({
 		accept: ItemTypes.ITEM,
 		drop: (item, monitor) => {
